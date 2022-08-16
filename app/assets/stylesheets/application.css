@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Mouse+Memoirs&family=Roboto+Slab&display=swap');
+
+ #title > a {
+  font-family: "Roboto Slab";
+  color:#337ab7;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+ }
+
+#article {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size:120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+i {
+  margin: 5px;
+}
+
+a > i {
+  color: #337ab7;
+}

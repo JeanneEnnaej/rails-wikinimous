@@ -1,0 +1,19 @@
+
+<div class="container mt-4">
+  <div class= "row d-flex justify-content-center">
+    <div class="col-sm-8 d-flex justify-content-center flex-column">
+      <div class="d-flex align-items-center border-bottom">
+        <h1><%= @article.title %></h1>
+        <%= link_to edit_article_path(@article) do %>
+          <i class="fa-solid fa-pen"></i>
+        <% end %>
+        <%= link_to article_path(@article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do%>
+          <i class="fa-solid fa-trash"></i>
+        <% end %>
+      </div>
+        <p><%= @article.content %></p>
+
+
+    </div>
+  </div>
+</div>
